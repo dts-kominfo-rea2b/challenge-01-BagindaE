@@ -6,8 +6,8 @@ const firstUser = {
     gender: "Female",
     age: "17",
     email: "monica@dingdong.com",
-    favoriteColor: new Set(["Yellow","Pink","White","Purple"]),
-    ishavePet: true,
+    favoriteColor: ["Yellow","Pink","White","Purple"],
+    isHavePet: true,
     education:[{
         name: "SD 01",
         city: "Jakarta",
@@ -21,7 +21,7 @@ const firstUser = {
         city: "Tangerang",
         graduate: "0"
     }],
-    favoriteRestaurant: new Set(["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"])
+    favoriteRestaurant: [new Set(["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"]),]
 };
 const secondUser = {
     name: "Wendy",
@@ -29,7 +29,7 @@ const secondUser = {
     age: "23",
     email: "wendya@dingdong.com",
     favoriteColor: new Set(["Blue","Black","Grey"]),
-    ishavePet: false,
+    isHavePet: false,
     education:[{
         name: "SD 02",
         city: "Jakarta",
@@ -47,7 +47,7 @@ const secondUser = {
         city: "Tangerang",
         graduate: "0"
     }],
-    favoriteRestaurant: new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"])
+    favoriteRestaurant: [new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"])]
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
